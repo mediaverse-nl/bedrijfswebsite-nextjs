@@ -1,0 +1,1 @@
+{"ast":null,"code":"import fetch from 'isomorphic-fetch';\nexport function getReferences() {\n  return fetch('http://localhost:3000/test/api/auth/reference');\n}\nexport function getReference(id) {\n  return fetch(\"http://localhost:3000/test/api/auth/reference/\".concat(id));\n}","map":null,"metadata":{},"sourceType":"module"}
